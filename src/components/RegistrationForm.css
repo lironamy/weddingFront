@@ -1,0 +1,481 @@
+@font-face {
+  font-family: 'gan';
+  src: url('../gan/ganclm_bold-webfont.ttf') format('truetype');
+  src: url('../gan/ganclm_bold-webfont.woff') format('woff'),
+       url('../gan/GNU-GPL');
+
+}
+
+.Form h2 {
+  font-family: 'gan';
+    padding: 0;
+    margin: 0;
+    color: rgb(137 149 154) !important;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+.formSection{
+    display: flex;
+}
+#guestsAmountKids, #guestsAmountAdults{
+    width: 20%;
+    margin: 10px;
+
+}
+
+.background {
+  background-image: url('../images/bg.png');
+  background-repeat: repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+
+#submitBtn{
+  font-family: 'gan';
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+
+.Form select {
+  font-family: 'gan';
+
+    
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    color: #60686f !important;
+    font-weight: 600;
+    text-align-last: center;
+
+}
+.App-logo {
+    width: 150px;
+    pointer-events: none;
+    padding: 0;
+    margin: 0;
+    
+}
+.rings {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rings img {
+    width: 300px;
+    height: auto;
+  
+}
+
+.invitation img {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.invitation  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  
+
+body {
+    padding: 20px;
+    background-color:#f0eeeb;
+    direction: rtl;
+
+  }
+  
+  body, p, input, select, textarea, button, .red{
+    font-family: 'gan';
+
+        font-weight: 400;
+      letter-spacing: -0.2px;
+      font-size: 20px;
+  }
+  
+  div, p {
+    color:rgb(87, 94, 98);
+    text-shadow: 1px 1px 1px #FFF;
+  }
+  
+
+  
+  .Form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+
+  button, input , select, .red {
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 100px;
+    padding: 16px;
+    background-color: #EBECF0;
+    text-shadow: 1px 1px 0 #FFF;
+    color: #61677C;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 16px*1.5;
+    width: 100%;
+  }
+  
+  input{
+    margin-right: 16px/2;
+    box-shadow:  inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    -webkit-appearance: none;
+  
+    &:focus {
+      box-shadow:  inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+    }
+  }
+  
+  button, select, .red {
+    color:#61677C;
+    font-weight: bold;
+    box-shadow: -5px -5px 20px #FFF,  5px 5px 20px #BABECC;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+    
+    &:hover {
+      box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+    }
+
+
+    
+    &:active {
+      box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+    }
+    
+    .icon {
+      margin-right: 16px/2;
+    }
+    
+  
+    
+    &.red {
+      display: block;
+      width: 100%;
+      color:#f13b51;
+    }
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+    label {
+      margin: 0;
+      flex: 1;
+    }
+  }
+
+  .Form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    direction: rtl;
+}
+
+.mainHeader{
+  color: #f13b51;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 1.1;
+}
+
+
+.Form  input {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: #60686f !important;
+    font-weight: 600; 
+}
+
+::placeholder{
+    color: rgb(101, 117, 124);
+    opacity: 0.5;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.Form label{
+    font-weight: 600;
+    color:rgb(137 149 154) !important;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.moreInfo{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    color: #60686f;
+    font-weight: 600;
+    margin-bottom: 10rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.moreInfo button {
+    margin: 20px auto;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: #4a5a67;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  
+
+}
+
+a img{
+    width:80px;
+    margin-right: 25px;
+    animation: leftToRight 2s ease-out;
+
+}
+
+@keyframes leftToRight {
+    0% {
+      transform: translateX(-350%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+iframe {
+
+    border: 1px solid #4a5a67;
+  }
+
+  .moreInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    direction: rtl;
+    color: #323b42;
+  }
+  
+
+  .container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  padding: 2.5rem 0;
+}
+
+.field {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 300px;
+}
+
+
+.scroll {
+  margin-bottom: 50px;
+	width: 60px;
+	height: 60px;
+	border: 4px solid #f13b51;
+	border-radius: 50%;
+	position: relative;
+	animation: down 1.5s infinite;
+	-webkit-animation: down 1.5s infinite;
+  box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+	&::before {
+		content: '';
+		position: absolute;
+		top: 15px;
+		left: 18px;
+		width: 18px;
+		height: 18px;
+		border-left: 4px solid #f13b51;
+  	border-bottom: 4px solid #f13b51;
+		transform: rotate(-45deg);
+	}
+}
+
+@keyframes down {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(15px);
+	}
+	40% {
+		transform: translate(0);
+	}
+}
+
+@-webkit-keyframes down {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(15px);
+	}
+	40% {
+		transform: translate(0);
+	}
+}
+
+.pcBg{
+  display: block;
+}
+
+.mobileBg{
+  display: none;
+}
+
+.invitationContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.specialDishes{
+  margin-top: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .invitation img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  body .css-1vqlznj-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root{
+    border-radius: 100px !important;
+    text-shadow: 1px 1px 0 #FFF !important;
+    background-color: #EBECF0 !important;
+    -webkit-appearance: none
+  }
+  
+  body .css-1tw7cpj-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root {
+    border-radius: 100px !important;
+    text-shadow: 1px 1px 0 #FFF !important;
+    background-color: #EBECF0 !important;
+    -webkit-appearance: none
+  }
+  
+  body .css-pkvtmb-MuiLoadingButton-loadingIndicator {  
+    color: #cf4f4f !important;
+    position: inherit !important;
+    -webkit-appearance: none
+  }
+
+  .pcBg{
+    display: none;
+  }
+
+  .mobileBg{
+    display: block;
+  }
+  .Form{
+       width: 100%;
+       max-width: 90%;
+    }
+    
+    .moreInfo{
+        width: 100%;
+        max-width: 90%;
+    }
+    img {
+        width: 50px;
+      }
+      a {
+        font-size: 1.2rem;
+      }
+      iframe {
+        width: 95%;
+      }
+}
+
+/* Define the keyframes for the skeleton animation */
+@keyframes skeleton {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: 200px 0;
+  }
+}
+
+/* Apply the animation to the skeleton placeholder */
+.skeleton-animation {
+  background-color: #f0f0f0;
+  background-image: linear-gradient(90deg, #f0f0f0, #d8d8d8, #f0f0f0);
+  background-size: 200px 100%;
+  animation: skeleton 3s infinite linear;
+}
+
+
+
+
+body .css-1vqlznj-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root{
+  border-radius: 100px !important;
+  text-shadow: 1px 1px 0 #FFF !important;
+  background-color: #EBECF0 !important;
+}
+
+body .css-1tw7cpj-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root {
+  border-radius: 100px !important;
+  text-shadow: 1px 1px 0 #FFF !important;
+  background-color: #EBECF0 !important;
+}
+
+body .css-pkvtmb-MuiLoadingButton-loadingIndicator {  
+  color: #cf4f4f !important;
+  position: inherit !important;
+}
+
+

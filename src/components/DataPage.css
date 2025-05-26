@@ -1,0 +1,254 @@
+
+
+body {
+    --color: #915fa8;
+    --bgColor: rgba(245, 245, 245);
+    margin: 0;
+    padding: 0;
+    font-family: 'gan';
+    color: var(--color);
+    background: var(--bgColor);
+    overflow: auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  
+  }
+
+@font-face {
+    font-family: 'gan';
+    src: url('../gan/ganclm_bold-webfont.ttf') format('truetype');
+    src: url('../gan/ganclm_bold-webfont.woff') format('woff'),
+         url('../gan/GNU-GPL');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.otterDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    cursor: pointer;
+}
+
+.data-page{
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.table-container {
+    overflow-y: auto;
+    margin: 30px;
+    box-shadow: 1px 0 8px #00000025;
+    border-radius: 30px;
+    width: 90%;
+    padding: 0;
+    background-color: #fff;
+    
+
+}
+
+
+
+.table-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #60686f;
+    padding: 1rem;
+    border: none;
+    background-color: #915fa8;
+
+}
+
+.table-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #60686f;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    min-height: 50px;
+}
+
+.table-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.table-data-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    color: rgb(244, 242, 242);
+    text-shadow: 1px 1px 1px #2e2e2e;
+
+}
+
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #60686f;
+   
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #915fa8;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #674079;
+}
+
+/* רשימות  */
+
+
+@import url("https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;500;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+ol {
+  width: min(60rem, 90%);
+  margin-inline: auto;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  list-style: none;
+  counter-reset: stepnr;
+}
+
+
+
+li:nth-child(6n + 1) { --accent-color: #f078c2 }
+li:nth-child(6n + 2) { --accent-color: #4cbccb }
+li:nth-child(6n + 3) { --accent-color: #7197d3 }
+li:nth-child(6n + 4) { --accent-color: #ae78cb }
+li:nth-child(6n + 5) { --accent-color: #7dc7a4 }
+li:nth-child(6n + 6) { --accent-color: #b8df4e }
+
+ol li {
+  width: 15rem;
+  --borderS: 2rem;
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  padding-right: calc(var(--borderS) + 1rem);
+  position: relative;
+}
+ol li::before,
+ol li::after {
+  inset: 0;
+  position: absolute;
+  border-radius: 50%;
+  border: var(--borderS) solid var(--bgColor);
+  line-height: 1.1;
+}
+
+ol li::after {
+  content: "";
+  filter: drop-shadow(-0.25rem 0.25rem 0.0675rem rgba(0, 0, 0, 0.75)) blur(5px);
+}
+
+ol li > * { width: 7.5rem }
+ol li .icon { font-size: 2rem; color: var(--accent-color); text-align: center }
+ol li .title { font-size: 1.5rem; font-weight: 600; text-align: start; }
+
+.descr {
+    color: var(--accent-color);
+    font-size: 4.5rem;
+    font-weight: 600;
+    text-align: end;
+}
+
+
+@media (max-width: 600px) {
+
+ .table-container {
+    width: 90%;
+    direction: rtl;
+    padding: 0;
+    background-color: #fff;
+   
+    }
+
+    h1{
+        margin-bottom: 1rem;
+    }
+
+    .table-header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 13px;
+        color: #60686f;
+        margin-bottom: 1rem;
+    }
+
+    .table-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: right;
+        gap: 0.5rem;
+        font-size:13px;
+        color: #60686f;
+    }
+
+  
+
+  ol li { width: 9.95rem }
+  ol li::before,
+  ol li::after { border-width: 1rem }
+  ol li > * { width: 3rem }
+  ol li .icon { font-size: 1.5rem }
+  ol li .title { font-size: 1rem;text-align: start;}
+  ol li .descr { font-size: 2.5rem } 
+
+}
+
+
+.span {
+
+    margin-bottom: 1150px;
+}
