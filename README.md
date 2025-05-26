@@ -35,9 +35,9 @@ The live website for the Wedding Webapp can be accessed at: https://daniel-micha
 
 - Front-End: React, TypeScript, React Router, Axios
 - Back-End: Node.js, Express, TypeScript
-- Database: SQL
+- Database: MongoDB
 - Package Manager: npm
-- Deployment: Hostinger
+- Deployment: Hostinger & render
 
 ## Installation
 
