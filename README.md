@@ -1,4 +1,4 @@
-# Wedding Webapp
+# Wedding Invitation
 
 ![main](https://github.com/user-attachments/assets/77b23e97-756a-4e88-8399-2dfd2fe75260)
 
