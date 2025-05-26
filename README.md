@@ -43,7 +43,7 @@ The live website for the Wedding Webapp can be accessed at: https://daniel-micha
 
 1. Clone the repository:
 ```bash
-git clone [your-repository-url]
+git clone https://github.com/lironamy/weddingFront.git
 ```
 
 2. Backend Setup:
@@ -82,7 +82,6 @@ Open your web browser and go to http://localhost:3000 to access the Wedding Weba
 - POST /api/rsvp: Submit RSVP
 - GET /api/guests: Get guest list (authenticated)
 - POST /api/login: User login
-- [Additional endpoints to be added]
 
 ## Screenshots
 
