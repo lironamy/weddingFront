@@ -17,8 +17,9 @@ Wedding Webapp is a full-stack web application built using React, Node.js, and m
 
 ## Live Website
 
-The live website for the Wedding Webapp can be accessed at:
-[Your Website URL]
+The live website for the Wedding Webapp can be accessed at: https://daniel-michael.online/#/wedding
+
+The live website for the "Holiday Picker App" can be accessed at: https://holidaypicker.online/.
 
 ## Features
 
