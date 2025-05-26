@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# Wedding Webapp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Wedding Webapp](https://via.placeholder.com/800x400?text=Wedding+Webapp)
 
-## Available Scripts
+Wedding Webapp is a full-stack web application built using React, Node.js, and modern web technologies. It provides a comprehensive solution for wedding planning and management, allowing couples to manage their wedding details and guests to access important information. With an interactive UI, secure authentication, and responsive design, this app ensures a seamless experience for all users.
 
-In the project directory, you can run:
+## Table of Contents
+- [Live Website](#live-website)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Endpoints](#api-endpoints)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
 
-### `npm start`
+## Live Website
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The live website for the Wedding Webapp can be accessed at:
+[Your Website URL]
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Wedding Details Management**: Couples can manage their wedding details including date, venue, schedule, and important information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Guest Management**: Track guest lists, RSVPs, and manage invitations efficiently.
 
-### `npm run build`
+- **Interactive UI**: Modern and responsive design that works seamlessly across all devices.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Secure Authentication**: User authentication implemented using JWT (JSON Web Tokens), providing secure access for couples and guests.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Responsive Design**: Fully responsive layout ensuring consistent performance across various devices and screen sizes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies
 
-### `npm run eject`
+- Front-End: React, TypeScript, React Router, Axios
+- Back-End: Node.js, Express, TypeScript
+- Database: SQL
+- Package Manager: npm
+- Deployment: Hostinger
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
+```bash
+git clone [your-repository-url]
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Backend Setup:
+```bash
+cd backend
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Frontend Setup:
+```bash
+cd frontend
+npm install
+```
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Start the development servers:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Backend:
+```bash
+cd backend
+npm run dev
+```
 
-### Code Splitting
+2. Frontend:
+```bash
+cd frontend
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Open your web browser and go to http://localhost:3000 to access the Wedding Webapp.
 
-### Analyzing the Bundle Size
+## API Endpoints
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- GET /api/wedding-details: Get wedding information
+- POST /api/rsvp: Submit RSVP
+- GET /api/guests: Get guest list (authenticated)
+- POST /api/login: User login
+- [Additional endpoints to be added]
 
-### Making a Progressive Web App
+## Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[Add your application screenshots here]
 
-### Advanced Configuration
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+We welcome contributions to enhance the Wedding Webapp. If you find any bugs or have ideas for improvements, feel free to open an issue or submit a pull request. Together, let's make wedding planning easier and more enjoyable for everyone! 
