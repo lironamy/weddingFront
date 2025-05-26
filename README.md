@@ -1,6 +1,7 @@
 # Wedding Webapp
 
-![Wedding Webapp](https://via.placeholder.com/800x400?text=Wedding+Webapp)
+![main](https://github.com/user-attachments/assets/77b23e97-756a-4e88-8399-2dfd2fe75260)
+
 
 Wedding Webapp is a full-stack web application built using React, Node.js, and modern web technologies. It provides a comprehensive solution for wedding planning and management, allowing couples to manage their wedding details and guests to access important information. With an interactive UI, secure authentication, and responsive design, this app ensures a seamless experience for all users.
 
@@ -86,7 +87,12 @@ Open your web browser and go to http://localhost:3000 to access the Wedding Weba
 
 ## Screenshots
 
-[Add your application screenshots here]
+![main2](https://github.com/user-attachments/assets/dfc98fd6-07b7-4cc6-8941-3b7e0dbf7f5a)
+
+![main3](https://github.com/user-attachments/assets/a2761c1d-3e26-4977-a0b2-f0cd583e4450)
+
+![main4](https://github.com/user-attachments/assets/0b779d8c-ac1d-45c5-a7f4-6d8f3c6c2081)
+
 
 ## Contributing
 
